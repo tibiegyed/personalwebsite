@@ -6,7 +6,7 @@
 .experience-ul {
   margin: 0;
   display: block;
-            
+  white-space: nowrap;
 }
 .experience-ul li {
   display:list-item;
@@ -116,7 +116,7 @@ section.resume-section {
     padding-bottom: 3rem !important; } }
 
 .bg-primary {
-    background-color: #4ABDAC !important;
+    background-color: #312e2e !important;
 }
 
 .text-primary {
@@ -130,3 +130,7 @@ a {
     }
 
  .dn{display:none}
+
+ .show-pic-mobile {
+  display: none !important;
+}
